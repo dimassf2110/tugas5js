@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Calculator SEDERHANA </title>
+<style>
+    .form{
+        margin-left: 500px;
+
+    }
+  
+    
+</style>
+</head>
+<body>
+ <form id="" class="form" name="calculator">
+   <caption>Calculator</caption>
+   <br> <br>
+   <tr>
+   <input placeholder=" masukan angka1" value="angka1" type="text" name="angka1">  <br> <br>
+   </tr>
+   <tr>
+    <input placeholder=" masukan angka2" value="angka2" type="text" name="angka2">  <br> <br>
+   </tr>
+   <tr>
+   
+        <input type="text" name="hasil"> <br> <br>
+   </tr>
+   <tr>
+    <td colspan="3">
+        <input class="tombol" type="button" onclick="tambah()" value="  +  ">
+        <input class="tombol" type="button" onclick="kurang()" value="  -  ">
+        <input class="tombol" type="button" onclick="kali()" value="  *  ">
+        <input class="tombol" type="button" onclick="bagi()" value="  /  ">  
+        <input class="tombol" type="button" onclick="pangkat()" value="  ^  ">
+
+    </td>
+   </tr>
+ </form>
+ <script type="text/JavaScript" src="js/calc.js"></script>
+</body>
+</html>
